@@ -1,0 +1,29 @@
+<div class="gridbox">
+  <img
+    decoding="async"
+    src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/bg1.png"
+    alt="BG"
+    class="bg-img"
+  />
+  <div class="infobox" [ngStyle]="{ display: boxContent.displayStyle }">
+    <div class="profile">
+      <img decoding="async" [src]="boxContent.imageUrl" alt="About Me" />
+    </div>
+    <div class="infos">
+      <h4>{{ boxContent.heading4 }}</h4>
+      <h1>
+        {{ boxContent.heading1 }}
+      </h1>
+      <p>
+        {{ boxContent.paragraphContent }}
+      </p>
+      <a href="#" class="about-btn">
+        <img
+          decoding="async"
+          src="https://wpriverthemes.com/gridx/wp-content/themes/gridx/assets/images/icon.svg"
+          alt="Button"
+        />
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,74 @@
+header {
+  display: block;
+  position: relative;
+  padding: 0 2rem;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(251, 251, 251);
+  font-size: 1rem;
+}
+
+a:hover {
+  color: rgb(69, 69, 70);
+}
+
+.navbar .logo a {
+  font-weight: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.navbar .toggle-btn {
+  color: aliceblue;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.theme-btn {
+  background-color: rgb(84, 85, 85);
+  color: rgb(251, 249, 249);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+.theme-btn:hover {
+  scale: 1.05;
+  color: rgb(190, 173, 173);
+}
+
+.theme-btn:active {
+  scale: 0.95;
+}

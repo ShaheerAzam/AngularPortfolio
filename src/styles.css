@@ -1,0 +1,9 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  scroll-behavior: smooth;
+  color: #9f9f9f;
+  background: #0f0f0f;
+  line-height: 19.2px;
+}
