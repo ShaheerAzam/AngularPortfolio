@@ -4,6 +4,7 @@ export interface Gridbox {
   paragraphContent: string;
   imageUrl: string;
   displayStyle: string;
+ // padding:string
 }
  
 

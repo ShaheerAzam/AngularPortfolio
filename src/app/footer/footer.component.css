@@ -1,0 +1,37 @@
+footer {
+  padding-top: 128px;
+  padding-bottom: 78px;
+}
+.container {
+  padding: 0 20px;
+}
+.textCenter {
+  text-align: center !important;
+}
+.logo {
+  display: inline-block;
+}
+.links {
+  margin: 33px 0 37px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(251, 251, 251);
+  font-size: 1rem;
+}
+
+a:hover {
+  color: rgb(69, 69, 70);
+}
+
+

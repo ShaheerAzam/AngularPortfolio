@@ -7,6 +7,7 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: 'I am a Web Developer based in Pakistan.',
     imageUrl: '../../assets/profile.jpg',
     displayStyle: 'flex',
+    // padding: '50px 46px',
   },
 
   {
@@ -15,6 +16,8 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: '',
     imageUrl: 'https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/sign.png',
     displayStyle: 'block',
+   // padding: '19px 70px',
+
   },
 
   {
@@ -23,29 +26,37 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: '',
     imageUrl: 'https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/my-works.png',
     displayStyle: 'block',
+  //  padding: '35px 70px',
+
   },
 
   {
     heading4: 'BLOG',
     heading1: 'GFonts',
     paragraphContent: '',
-    imageUrl: '../../assets/pics/gfonts.png',
+    imageUrl: 'https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/gfonts.png',
     displayStyle: 'block',
+  //      padding: '24px',
+
   },
 
   {
     heading4: 'SPECIALIZATION',
     heading1: 'Services Offering',
     paragraphContent: '',
-    imageUrl: '../../assets/pics/services.jpg',
+    imageUrl: '../../assets/services.png',
     displayStyle: 'block',
+   //     padding: '24px',
+
   },
 
   {
     heading4: 'STAY WITH ME',
     heading1: 'Profiles',
     paragraphContent: '',
-    imageUrl: '../../assets/pics/sign.png',
+    imageUrl: '../../assets/signin.png',
     displayStyle: 'block',
+   //     padding: '24px',
+
   },
 ];

@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { ProfileGridComponent } from './gridbox/profile-grid.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { MovingbannerComponent } from './movingbanner/movingbanner.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MovingbannerComponent } from './movingbanner/movingbanner.component';
     HeaderComponent,
     ProfileGridComponent,
     AboutmeComponent,
-    MovingbannerComponent
+    MovingbannerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

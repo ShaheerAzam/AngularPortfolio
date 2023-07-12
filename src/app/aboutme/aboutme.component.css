@@ -5,6 +5,9 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  display: block;
+}
+.container1 {
   display: flex;
 }
 .credentials {
@@ -13,4 +16,26 @@
 .section2 {
   display: flex;
   width: fit-content;
+}
+.section3 {
+  display: flex;
+  width: fit-content;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    display: block;
+  }
+  .container1 {
+    display: block;
+  }
+  .section2 {
+    display: block;
+  }
+  .credentials {
+    display: block;
+  }
+  .section3 {
+    display: block;
+  }
 }

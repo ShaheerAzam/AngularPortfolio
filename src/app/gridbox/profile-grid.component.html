@@ -5,7 +5,12 @@
     alt="BG"
     class="bg-img"
   />
-  <div class="infobox" [ngStyle]="{ display: boxContent.displayStyle }">
+  <div
+    class="infobox"
+    [ngStyle]="{
+      display: boxContent.displayStyle,
+    }"
+  >
     <div class="profile">
       <img decoding="async" [src]="boxContent.imageUrl" alt="About Me" />
     </div>
