@@ -80,3 +80,16 @@
     margin-right: 0;
   }
 }
+
+.zoom-in-animation {
+  animation: zoom-in 2s ease-in-out;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

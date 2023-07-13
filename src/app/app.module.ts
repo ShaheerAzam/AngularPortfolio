@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -8,6 +8,7 @@ import { ProfileGridComponent } from './gridbox/profile-grid.component';
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { MovingbannerComponent } from './movingbanner/movingbanner.component';
 import { FooterComponent } from './footer/footer.component';
+import { SlidedivComponent } from './slidediv/slidediv.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,13 @@ import { FooterComponent } from './footer/footer.component';
     ProfileGridComponent,
     AboutmeComponent,
     MovingbannerComponent,
-    FooterComponent
+    FooterComponent,
+    SlidedivComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
