@@ -14,7 +14,9 @@ export class AboutmeComponent
   implements AfterViewInit {
   @ViewChildren(ProfileGridComponent)
   chldComponentElement!: QueryList<ProfileGridComponent>;
-
+ 
+  Padding = '20px 20px';
+  
   boxData = boxDataArray;
   startIndex = 2;
 

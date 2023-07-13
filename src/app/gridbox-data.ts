@@ -7,7 +7,7 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: 'I am a Web Developer based in Pakistan.',
     imageUrl: '../../assets/profile.jpg',
     displayStyle: 'flex',
-    // padding: '50px 46px',
+    padding: ' ',
   },
 
   {
@@ -16,7 +16,7 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: '',
     imageUrl: 'https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/sign.png',
     displayStyle: 'block',
-   // padding: '19px 70px',
+   padding: '30px 70px',
 
   },
 
@@ -26,7 +26,7 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: '',
     imageUrl: 'https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/my-works.png',
     displayStyle: 'block',
-  //  padding: '35px 70px',
+  padding: '47px 70px',
 
   },
 
@@ -36,7 +36,7 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: '',
     imageUrl: 'https://wpriverthemes.com/gridx/wp-content/uploads/2023/04/gfonts.png',
     displayStyle: 'block',
-  //      padding: '24px',
+  padding: '24px',
 
   },
 
@@ -46,7 +46,7 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: '',
     imageUrl: '../../assets/services.png',
     displayStyle: 'block',
-   //     padding: '24px',
+padding: '24px',
 
   },
 
@@ -56,7 +56,7 @@ export const boxDataArray: Gridbox[] = [
     paragraphContent: '',
     imageUrl: '../../assets/signin.png',
     displayStyle: 'block',
-   //     padding: '24px',
+   padding: '24px',
 
   },
 ];

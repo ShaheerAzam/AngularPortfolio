@@ -62,8 +62,9 @@ a:hover {
   font-size: 0.8rem;
   font-weight: bold;
   cursor: pointer;
-  transition: scale 0.2 ease;
+  transition: scale 0.2s ease;
 }
+
 .theme-btn:hover {
   scale: 1.05;
   color: rgb(190, 173, 173);
@@ -71,4 +72,26 @@ a:hover {
 
 .theme-btn:active {
   scale: 0.95;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar .links {
+    display: none;
+  }
+
+  .navbar .toggle-btn {
+    display: block;
+  }
+
+  .navbar .theme-btn {
+    display: none;
+  }
+
+  .navbar.responsive .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
 }

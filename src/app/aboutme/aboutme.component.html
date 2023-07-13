@@ -5,8 +5,14 @@
       <div class="credentials">
         <app-movingbanner></app-movingbanner>
         <div class="section2">
-          <app-gridbox [boxContent]="boxData[1]"></app-gridbox>
-          <app-gridbox [boxContent]="boxData[2]"></app-gridbox>
+          <app-gridbox
+            [boxContent]="boxData[1]"
+            [responsivePadding]="true"
+          ></app-gridbox>
+          <app-gridbox
+            [boxContent]="boxData[2]"
+            [responsivePadding]="true"
+          ></app-gridbox>
         </div>
       </div>
     </div>
